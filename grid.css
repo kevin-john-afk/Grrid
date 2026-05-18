@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: min(50%, 75);
+
+}
+.container{
+  
+  display: inline-grid;
+  grid-template: 200px 200px 200px 200px   /200px 200px 200px 200px 200px 200px  ;
+  background-color: lightblue; 
+  row-gap: 10px;
+  text-align: center;
+  column-gap: 11px;
+
+}
+.container div{
+    border: 1px solid black;
+    
+}
+#Home{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    background-color: aliceblue;
+}
+form {
+  border-radius: 9px;
+  padding: 50px;
+}
+input[type="search"]{
+    width: 600px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius:100px;
+    background-color: rgba(194, 214, 236, 0.95);
+    border-color:  rgba(194, 214, 236, 0.95);
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+img{
+    width: 100px;
+}
+#Profile{
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-color:rgb(56, 129, 213);
+     grid-column-start: 1;
+    grid-column-end: 2;
+
+
+}
+#Profile a:link{
+text-decoration: none;
+color: aliceblue;
+display: flex;
+flex-direction: row;
+padding: 10px 10px 10px 10px;
+}
+
+
+#six{
+    grid-column-end:7;
+
+}
+#ten{
+        grid-column-end:7; 
+         grid-row-end:3;
+}
+.jeje{
+   
+ grid-column-start: 2;
+    grid-column-end:4;  
+    box-shadow: -8px 0 0px  orange;
+      padding: 5px;
+}
+.other{
+    grid-column-start: 4;
+    grid-column-end:6;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#Task{
+ grid-row-end:3;
+grid-row-start: 4;
+}
+#Privacy{
+     grid-row-end:2;
+grid-row-start: 2;
+  box-shadow: -8px 0 0px  orange;
+}
+#Settings{
+grid-row-end:3;
+grid-row-start: 3;  
+box-shadow: -8px 0 0px  orange;
+}
+#Support{
+grid-row-end:4;
+grid-row-start: 4;  
+box-shadow: -8px 0 0px  orange;
+}
+h4, h2{
+margin-left: 150px;
+margin-top: 1px;
+display: table;
+
+}
+#Home a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);     
+    float: right;
+    margin-top: 25px;
+  width: 100px;
+  padding: 10px;
+  background-color: blue;
+   border-radius: 20px;
+  margin-right: 10px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#Home a:hover{
+    background-color:rgb(0, 119, 255) ;
+    border-radius: 100px;
+}
+.ok{
+    display: inline-grid;
+    width: 500px;
+    gap: 10px;
+    height: 500px;
+}
+ .jeje h2{
+   margin: 10px;
+}
+.other h2{
+       margin: 10px;
+}
+i{
+  position: absolute;
+  left: 300px;
+  top: 35px;
+}
+#Profile i{
+    display:contents;
+}
+
+
+
